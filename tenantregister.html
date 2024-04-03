@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenant Rockers Register</title>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>TENANT ROCKERS</h1>
+            <h3>Efficient Way For Properties Rent In Chennai</h3>
+        </div>
+        <h1>Register</h1>
+        <form action="home.html" method="get">
+            <table>
+                <div>
+                        <tr>
+                            <td> <label for="Firstname">First Name</label> </td>
+                            <td> <input type="text" id="Firstname" placeholder="FirstName" required name="Firstname"> </td>
+                        </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <label for="Lastname">Last Name</label> </td>
+                            <td> <input type="text" id="Lastname" placeholder="Lastname" required name="Lastname"> </td>
+                        </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <label for="mail">Mail Id</label> </td>
+                            <td> <input id="mail" type="email" placeholder="mailaddress" required name="mailaddress"> </td>
+                        </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <label for="dob">Date Of Birth</label> </td>
+                            <td> <input id="dob" name="dob" required type="date" min="1900-01-01" max="today"> </td>
+                        </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <label for="gender:">gender</label> </td>
+                            <td>
+                                 <input type="radio" name="gender" id="Male">
+                                <label for="Male">male</label>
+                                <input type="radio" name="gender" id="Female">
+                                <label for="Female">Female</label>
+                                <input type="radio" name="gender" id="Others">
+                                <label for="Others">Others</label>  
+                            </td>
+                        </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <label for="password">Password</label> </td>
+                            <td> <input id="password" name="password" required type="password" minlength="8"> </td>
+                        </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <label for="about">About You</label> </td>
+                            <td> <textarea id="about" name="about" required rows="5" col="20"></textarea> </td>
+                        </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <input type="checkbox" required id="agree"> </td>
+                            <td> <label for="agree">Accepting the Terms And conditions</label> </td>
+                </tr>
+                </div>
+                <div>
+                        <tr>
+                            <td> <button type="reset">reset</button>   </td>
+                            <td> <button type="Submit">Submit</button> </td>
+                
+                        </tr>
+                </div>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
